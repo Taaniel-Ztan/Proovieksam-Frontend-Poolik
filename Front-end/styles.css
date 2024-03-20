@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-ExtraLight.ttf') format('truetype'); 
+    font-style: normal; 
+    font-weight: 200; 
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-Regular.ttf') format('truetype'); 
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-Medium.ttf') format('truetype'); 
+    font-style: normal; 
+    font-weight: 500; 
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-Bold.ttf') format('truetype'); 
+    font-style: normal; 
+    font-weight: 700; 
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+
+
+
+.about-button {
+    background-color: transparent; /* Make background transparent */
+    border: none; /* Remove border */
+    color: rgb(0, 0, 0); /* Text color */
+    cursor: pointer; /* Cursor style */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font family */
+    font-size: 19px;
+    position: absolute; /* Position the button relative to its containing element */
+    top: 90px; /* Adjust vertical position */
+    right: 27%; /* Adjust horizontal position */
+
+
+}
+
+.about-button:hover {
+    color: #B51F09; /* Change text color on hover */
+}
+
+
+.gallery-button {
+    background-color: transparent; /* Make background transparent */
+    border: none; /* Remove border */
+    color: rgb(0, 0, 0); /* Text color */
+    cursor: pointer; /* Cursor style */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font family */
+    font-size: 19px;
+    position: absolute; /* Position the button relative to its containing element */
+    top: 90px; /* Adjust vertical position */
+    right: 22%; /* Adjust horizontal position */
+
+
+}
+
+.gallery-button:hover {
+    color: #B51F09; /* Change text color on hover */
+}
+
+
+.visitors-button {
+    background-color: transparent; /* Make background transparent */
+    border: none; /* Remove border */
+    color: rgb(0, 0, 0); /* Text color */
+    cursor: pointer; /* Cursor style */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font family */
+    font-size: 19px;
+    position: absolute; /* Position the button relative to its containing element */
+    top: 90px; /* Adjust vertical position */
+    right: 15%; /* Adjust horizontal position */
+
+
+}
+
+.visitors-button:hover {
+    color: #B51F09; /* Change text color on hover */
+}
+
+
+.contact-button {
+    background-color: transparent; /* Make background transparent */
+    border: none; /* Remove border */
+    color: rgb(0, 0, 0); /* Text color */
+    cursor: pointer; /* Cursor style */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font family */
+    font-size: 19px;
+    position: absolute; /* Position the button relative to its containing element */
+    top: 90px; /* Adjust vertical position */
+    right: 8%; /* Adjust horizontal position */
+
+
+}
+
+.contact-button:hover {
+    color: #B51F09; /* Change text color on hover */
+}
+
+.header-image {
+    position: absolute; /* Position the image relative to its containing element */
+    top: 100px; /* Adjust vertical position */
+    left: 0px; /* Adjust horizontal position */
+    width: 2543px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1; /* Ensure the image is behind other elements */
+}
+
+.svg-text {
+    position: absolute; /* Position the SVG text relative to its containing element */
+    top: 20px; /* Adjust vertical position */
+    left: 50px; /* Adjust horizontal position */
+    z-index: 2; /* Ensure the SVG text is on top of the image */
+
+}
+
+
+.overlay {
+    position: absolute;
+    top: 115%;
+    left: -1.5%;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Assuming your image has z-index: 1 */
+}
+
+
+.svg-rect {
+    position: absolute;
+    z-index: 2;
+    top: 110%; /* Change this if you want some space from the top */
+    left: 2%; /* Adjust this value to create space on the left */
+    fill: #B51F09; /* Fill color */
+}
+
